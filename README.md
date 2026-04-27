@@ -18,7 +18,7 @@ You can send a request to the webhook using a `POST` call with JSON data.
 ### Example (Windows CMD)
 
 ```bash
-curl -X POST "http://141.147.118.157:5678/webhook-test/f9b818be-f507-436d-9af8-8ebd8270d049" ^
+curl -X POST "http://141.147.118.157:5678/webhook/f9b818be-f507-436d-9af8-8ebd8270d049" ^
   -H "Content-Type: application/json" ^
   -d "{\"prompt\":\"hello\",\"sessionid\":\"0000000\",\"token\":\"XXXXX\"}"
 ```
@@ -26,7 +26,7 @@ curl -X POST "http://141.147.118.157:5678/webhook-test/f9b818be-f507-436d-9af8-8
 ### Example (Linux / macOS / Git Bash)
 
 ```bash
-curl -X POST "http://141.147.118.157:5678/webhook-test/f9b818be-f507-436d-9af8-8ebd8270d049" \
+curl -X POST "http://141.147.118.157:5678/webhook/f9b818be-f507-436d-9af8-8ebd8270d049" \
   -H "Content-Type: application/json" \
   -d '{"prompt":"hello","sessionid":"0000000","token":"XXXXX"}'
 ```
