@@ -38,6 +38,7 @@ curl -X POST "http://141.147.118.157:5678/webhook/f9b818be-f507-436d-9af8-8ebd82
 * **prompt**: The message you want the AI to respond to.
 * **sessionid**: A unique identifier for the user/session.
   👉 This is important for memory/context tracking. Use a consistent ID per user.
+  UPDATE: This sessionid is now the API token so that API tokens can be revoked if it breaks the rules of Tye.
 * **token**: Your API authentication token.
 
 ---
